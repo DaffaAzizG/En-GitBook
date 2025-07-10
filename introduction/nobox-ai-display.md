@@ -4,7 +4,7 @@ icon: pan-frying
 
 # NoBox AI Display
 
-{% embed url="https://youtu.be/KNauz2G7IGU" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/KNauz2G7IGU/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Pada website NoBox.Ai memiliki beberapa tampilan umum yaitu :
 
@@ -48,6 +48,6 @@ In the form view, there are common features each with their own specific functio
 
 <table><thead><tr><th width="165">Features/Buttons</th><th>Function</th></tr></thead><tbody><tr><td>Group</td><td>Grouping several entries according to their sections</td></tr><tr><td>Save</td><td>Save newly added or edited data.</td></tr><tr><td>Continue</td><td>Save newly added or edited data without closing the dialog.</td></tr><tr><td>Delete</td><td>Delete data</td></tr></tbody></table>
 
-***
+---
 
 If you encounter any issues or difficulties regarding NoBox.Ai, please contact us through [Support Ticket](https://crm.mynobox.com/clients/tickets)

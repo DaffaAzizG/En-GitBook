@@ -9,10 +9,10 @@ coverY: 0
 
 Here, you'll find all the information about the amazing features of NoBox.AI that help businesses create smarter and more responsive customer experiences. Explore its omnichannel capabilities, human-like AI, and easy setup of innovative AI Agents. We'll help you maximize the potential of NoBox.AI for your business!
 
-{% embed url="https://youtu.be/CZ_eH4xD0ws?si=BScvbQJfHBVIHlGc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/CZ_eH4xD0ws?si=BScvbQJfHBVIHlGc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-***
+---
 
-***
+---
 
 If you experience any issues or difficulties with NoBox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

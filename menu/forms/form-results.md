@@ -6,7 +6,7 @@ icon: square-poll-horizontal
 
 The "Form Results" menu in NoBox is used for managing form data results.
 
-{% embed url="https://youtu.be/zbxed-OODf0" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/zbxed-OODf0/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Hasil Formulir.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,10 +22,10 @@ You can add the products you want to purchase in the product section, remove pro
 
 You can track the additions and reductions in costs in the form data as follows:
 
-* Select one of the form data entries.
-* In the Summary section, fill in the additional costs; for example, enter shipping with an amount of 75,000.
-* Fill in the reduced costs; for example, enter a discount with an amount of 25,000.
-* The total will automatically be calculated.
+- Select one of the form data entries.
+- In the Summary section, fill in the additional costs; for example, enter shipping with an amount of 75,000.
+- Fill in the reduced costs; for example, enter a discount with an amount of 25,000.
+- The total will automatically be calculated.
 
 <figure><img src="../../.gitbook/assets/Penanganan Ringkasan.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,10 +35,10 @@ Click **\[Save]** to store the changes.
 
 You can send a message to customers to confirm their order by:
 
-* Select one form data entry
-* Click the **\[**![](<../../.gitbook/assets/image (11).png>)**]** icon
-* Select the follow-up category, a preview message will appear. For follow-up data, it will automatically align with the customer's order data, but you can also modify the information.
-* Click **\[Send]** to dispatch the Follow-Up message
+- Select one form data entry
+- Click the **\[**![](<../../.gitbook/assets/image (11).png>)**]** icon
+- Select the follow-up category, a preview message will appear. For follow-up data, it will automatically align with the customer's order data, but you can also modify the information.
+- Click **\[Send]** to dispatch the Follow-Up message
 
 <figure><img src="../../.gitbook/assets/Penanganan Tindak Lanjut.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,6 +56,6 @@ Untuk memudahkan monitoring data hasil formulir ketika proses penjualan sudah sa
 
 <figure><img src="../../.gitbook/assets/Penanganan Status Penjualan.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

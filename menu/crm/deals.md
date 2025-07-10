@@ -6,7 +6,7 @@ icon: handshake-simple
 
 Deals is one of the menus in Nobox.Ai used for managing offers, making it easier for you to manage all information and activities related to sales progress.
 
-{% embed url="https://youtu.be/jGn4u60uODA" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/jGn4u60uODA/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Deals (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -219,6 +219,6 @@ Log is one of the features of Nobox.Ai that provides information on activities r
 
 <figure><img src="../../.gitbook/assets/tampilan log penawaran.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

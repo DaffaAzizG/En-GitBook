@@ -6,7 +6,7 @@ icon: link
 
 Link is a feature in Nobox.Ai designed to store contact accounts like WhatsApp numbers, Email, Telegram, etc.
 
-{% embed url="https://youtu.be/DFfvAKB75RY" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/DFfvAKB75RY/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Link (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,6 +34,6 @@ The "Send Message" tab is used to store information about broadcast messages sen
 
 <figure><img src="../../.gitbook/assets/Broadcast Messages (4).png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

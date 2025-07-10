@@ -6,7 +6,7 @@ icon: tags
 
 Promotional Tags is a feature in Nobox.Ai that helps organize your promotional data.
 
-{% embed url="https://youtu.be/fxNrtG_VTjk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/fxNrtG_VTjk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Campaign Tag.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,10 +38,10 @@ To delete a data tag, first select the data you wish to delete, then click **\[D
 
 A promotion tag filter is used to sort promotion data and display information based on the selected tag. The steps to filter data by tag are as follows:
 
-* Open the **\[Promotions]** menu, click on the tag filter and select the tag data you wish to search for. The filtered data will then be displayed.
+- Open the **\[Promotions]** menu, click on the tag filter and select the tag data you wish to search for. The filtered data will then be displayed.
 
 <figure><img src="../../.gitbook/assets/Filter Tags.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

@@ -6,7 +6,7 @@ icon: copy
 
 The Form Templates is a feature on NoBox.Ai used to create form models.
 
-{% embed url="https://youtu.be/VWkVMLe85xs" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/VWkVMLe85xs/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Model Formulir.png" alt=""><figcaption></figcaption></figure>
 
@@ -81,6 +81,6 @@ Copy is a feature used to duplicate the URL of the form model.
 
 <figure><img src="../../.gitbook/assets/Salin Model Formulir.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

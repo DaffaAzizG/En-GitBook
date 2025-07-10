@@ -6,7 +6,7 @@ icon: hashtag
 
 The Contact Tag is a feature in Nobox.Ai used to categorize your contact data.
 
-{% embed url="https://youtu.be/n3daNgK1hKw" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/n3daNgK1hKw/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Contact Tag.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,10 +38,10 @@ To delete a tag, select the tag you want to remove, then click **\[Delete]**. A 
 
 The contact tag filter is used to sort contact data and display it based on the selected tag. Here's how to filter contact data:
 
-* Open the **\[Contact]** menu, click the Tags filter, and choose the tag data you want to search. The filtered data will be displayed.
+- Open the **\[Contact]** menu, click the Tags filter, and choose the tag data you want to search. The filtered data will be displayed.
 
 <figure><img src="../../.gitbook/assets/Filter Tags (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

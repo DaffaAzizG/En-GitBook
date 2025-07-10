@@ -6,7 +6,7 @@ icon: clipboard-list
 
 Tasks are one of the features in Nobox.Ai used for managing team or individual tasks. You can manage all activities, user tasks, or tasks assigned to others.
 
-{% embed url="https://youtu.be/mElOi9X0-0k" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/mElOi9X0-0k/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Tasks (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -91,6 +91,6 @@ The assignment copy feature allows you to easily duplicate your task data. To co
 
 <figure><img src="../../.gitbook/assets/Tampilan Copy tugas.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you encounter any issues or difficulties with Nobox.Ai, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

@@ -6,7 +6,7 @@ icon: money-check-dollar-pen
 
 Payment Method is a menu option in NoBox used for managing master data of payment methods.
 
-{% embed url="https://youtu.be/SSZTrIS5ZKA" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/SSZTrIS5ZKA/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Metode Pembayaran.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,6 +36,6 @@ The data form will display the payment method you choose.
 
 <figure><img src="../../.gitbook/assets/Penggunaan Metode Pembayaran Formulir.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

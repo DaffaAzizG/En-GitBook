@@ -6,18 +6,17 @@ icon: map-location-dot
 
 Google Maps Extractor offers several attractive features that you can take advantage of to support all its benefits. Among the many available options, here are a few key features you can utilize:
 
-{% embed url="https://youtu.be/i2JsGX__WRg" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/i2JsGX__WRg/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Set Character Unicode**
 
 NoBox can store search results in Unicode format such as Arabic, Chinese, Japanese, etc.\
 
-
 <figure><img src="../../.gitbook/assets/Unicode.png" alt=""><figcaption></figcaption></figure>
 
-* Change the language settings first.
-* Extract data.
-* Once completed, the extracted data will be stored according to the selected language.
+- Change the language settings first.
+- Extract data.
+- Once completed, the extracted data will be stored according to the selected language.
 
 ## **Interval Get List**
 
@@ -51,8 +50,8 @@ Used for conducting search processes with multiple keywords simultaneously.
 
 <figure><img src="../../.gitbook/assets/Multi Tab.png" alt=""><figcaption></figcaption></figure>
 
-* Perform data extraction on 2 extractor accounts, then add with **"Add Account"**
-* First extractor, perform a free search with a data count of 5, then add a new list.
+- Perform data extraction on 2 extractor accounts, then add with **"Add Account"**
+- First extractor, perform a free search with a data count of 5, then add a new list.
 
 ## **Website NoBox.Ai**
 
@@ -60,9 +59,9 @@ The extracted data will be automatically stored on the NoBox.Ai website, allowin
 
 <figure><img src="../../.gitbook/assets/Contacts (2).png" alt=""><figcaption></figcaption></figure>
 
-* Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
-* Select filter **\[Source -> Google Maps]**
-* Enable the **\[Auto Refresh]** feature to monitor which data has been successfully processed.
+- Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
+- Select filter **\[Source -> Google Maps]**
+- Enable the **\[Auto Refresh]** feature to monitor which data has been successfully processed.
 
 ## **Export Data**
 
@@ -70,8 +69,8 @@ NoBox offers options to store extracted data in Excel (.xlsx, .csv) and JSON (.j
 
 <figure><img src="../../.gitbook/assets/Export.png" alt=""><figcaption></figcaption></figure>
 
-* Click **\[Export to Excel]** on the **\[Process]** page.
-* To view the newly retrieved data, go to the **\[Results]** page, then click the **\[Action]** button to export in Excel, CSV, or JSON format.
+- Click **\[Export to Excel]** on the **\[Process]** page.
+- To view the newly retrieved data, go to the **\[Results]** page, then click the **\[Action]** button to export in Excel, CSV, or JSON format.
 
 ## **Handling a Computer Shutdown During Data Extraction**
 
@@ -79,10 +78,10 @@ NoBox offers a feature for unexpected computer/software shutdowns during data ex
 
 <figure><img src="../../.gitbook/assets/Komputer mati (1).png" alt=""><figcaption></figcaption></figure>
 
-* Open the NoBox application again and navigate to **\[Extractor -> Google Maps]**. A notification will appear indicating that the previous process is still unfinished.
-* Click **\[OK]** to continue the data search process.
-* Click **\[Cancel]** to cancel the search.
+- Open the NoBox application again and navigate to **\[Extractor -> Google Maps]**. A notification will appear indicating that the previous process is still unfinished.
+- Click **\[OK]** to continue the data search process.
+- Click **\[Cancel]** to cancel the search.
 
-***
+---
 
 If you encounter any issues or difficulties with NoBox Desktop, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

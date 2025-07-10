@@ -6,7 +6,7 @@ icon: box-archive
 
 The product is one of the menus on NoBox.Ai used for managing the data of products being sold.
 
-{% embed url="https://youtu.be/DIHmqinxNEc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/DIHmqinxNEc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Product.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,6 +37,6 @@ Once you have filled in all the fields, click **\[Save]** to store the new produ
 
 To edit a product data, first select the data you want to edit. Make your edits and click **\[Save]** to save the changes. To delete a product data, select the product data you wish to delete, then click **\[Delete]**. A confirmation dialog will appear asking if you want to delete the data. If yes, click **\[Yes]**, otherwise click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to NoBox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

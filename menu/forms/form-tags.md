@@ -6,7 +6,7 @@ icon: tags
 
 The Form Tag is a feature in NoBox used to categorize your form data.
 
-{% embed url="https://youtu.be/zZuBGsGfRqQ" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/zZuBGsGfRqQ/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Tag Formulir.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,10 +46,10 @@ You can also use the form tags in the \[Form Model] menu by following these step
 
 The Form Filter Tag is used to sort form data and display data based on the selected tag. Here's how to filter form data:
 
-* Open the **\[Form Results]** or **\[Form Model]** menu, click on the Tag filter, and select the tag data you want to search for. The filtered data will be displayed.
+- Open the **\[Form Results]** or **\[Form Model]** menu, click on the Tag filter, and select the tag data you want to search for. The filtered data will be displayed.
 
 <figure><img src="https://crm.nobox.ai/media/public/Knowlegde%20Base%20Indo%20Version/Formulir/Tag%20Formulir/Filter%20Tag%20Formulir.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

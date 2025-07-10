@@ -6,7 +6,7 @@ icon: comments
 
 The "Send Message" feature in Nobox.Ai is used for monitoring the results of message sending from all promotional data. It allows you to track messages that are still queued, in process, failed, or successfully sent.
 
-{% embed url="https://youtu.be/EkWgwRnDC2E" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/EkWgwRnDC2E/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Broadcast Messages.png" alt=""><figcaption></figcaption></figure>
 
@@ -14,6 +14,6 @@ The "Send Message" feature in Nobox.Ai is used for monitoring the results of mes
 
 To view the details of the data, you can click on one of the entries in the message column. Detailed information regarding the selected message will then appear.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

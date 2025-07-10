@@ -6,7 +6,7 @@ icon: messages
 
 Quick Reply is a feature on Nobox.Ai used as a message template to reply to messages more quickly, including text or media such as images, GIFs, and videos.
 
-{% embed url="https://youtu.be/oU0Z6xRhfnU" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/oU0Z6xRhfnU/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Quick Reply.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,6 +42,6 @@ To send a quick reply, you need to follow these steps:
 
 <figure><img src="../../.gitbook/assets/Cara 3.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you encounter any issues or difficulties related to Nobox.Ai, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

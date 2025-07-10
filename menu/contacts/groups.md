@@ -6,7 +6,7 @@ icon: users-rectangle
 
 A group is a feature in the Nobox.Ai menu used for group information such as the name and description of the associated account.
 
-{% embed url="https://youtu.be/_X6yHUwetxw" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/_X6yHUwetxw/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Group.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,6 +22,6 @@ The group conversation will appear in the **\[Inbox]** menu.
 
 To edit a group data entry, please first select which data you want to edit. Edit your data and click \[Save] to save the changes.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

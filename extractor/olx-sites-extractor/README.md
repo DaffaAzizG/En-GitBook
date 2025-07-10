@@ -6,7 +6,7 @@ icon: boxes-packing
 
 To support all its advantages, OLX Extractor offers a number of interesting features that you can utilize. Among the many available feature options, you can take advantage of some selected features below:
 
-{% embed url="https://youtu.be/i2JsGX__WRg" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/i2JsGX__WRg/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Auto Login**
 
@@ -14,10 +14,10 @@ OLX Extractor supports the auto login feature. With auto login, specific users c
 
 <figure><img src="../../.gitbook/assets/Auto login.png" alt=""><figcaption></figcaption></figure>
 
-* Access the NoBox Desktop application through the **\[Extractor]** menu
-* Click **\[Other Options]** on the **\[Process]** page.
-* Enter your OLX email and password before proceeding to the next step.
-* Then click **\[OK]** to save.
+- Access the NoBox Desktop application through the **\[Extractor]** menu
+- Click **\[Other Options]** on the **\[Process]** page.
+- Enter your OLX email and password before proceeding to the next step.
+- Then click **\[OK]** to save.
 
 ## **Page Process**
 
@@ -45,9 +45,9 @@ This feature allows you to adjust the timing between each request to simulate hu
 
 <figure><img src="../../.gitbook/assets/Interval OLX.png" alt=""><figcaption></figcaption></figure>
 
-* Click **\[Other Options]** on the **\[Process]** page.
-* The interval indicated is the default setting of NoBox, and can be adjusted as needed.
-* Then click **\[OK]** to save
+- Click **\[Other Options]** on the **\[Process]** page.
+- The interval indicated is the default setting of NoBox, and can be adjusted as needed.
+- Then click **\[OK]** to save
 
 ## **Multi Tab**
 
@@ -55,8 +55,8 @@ OLX Extractor supports multi-tab processes, enabling searches with multiple keyw
 
 <figure><img src="../../.gitbook/assets/Multi Tab OLX-1.png" alt=""><figcaption></figcaption></figure>
 
-* Extract data from one account using the tool with the search term “Laptop” located in “Jawa Timur.” Retrieve two data entries and include them in the Laptop Malang list.
-* Add another account with the same search but with a different location and a different limit on the number of results.
+- Extract data from one account using the tool with the search term “Laptop” located in “Jawa Timur.” Retrieve two data entries and include them in the Laptop Malang list.
+- Add another account with the same search but with a different location and a different limit on the number of results.
 
 ## **Website NoBox.Ai**
 
@@ -64,9 +64,9 @@ Data extraction results are directly stored on the NoBox.Ai website, allowing yo
 
 <figure><img src="../../.gitbook/assets/Contacts (1).png" alt=""><figcaption></figcaption></figure>
 
-* Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
-* Select filter **\[Source -> OLX IndonesiaX]**
-* Activate **\[Auto Refresh]** feature to monitor which data have been successfully processed.
+- Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
+- Select filter **\[Source -> OLX IndonesiaX]**
+- Activate **\[Auto Refresh]** feature to monitor which data have been successfully processed.
 
 ## **Export Data**
 
@@ -74,8 +74,8 @@ NoBox provides options to save extracted data in Excel formats (.xlsx, .csv) and
 
 <figure><img src="../../.gitbook/assets/Export .png" alt=""><figcaption></figcaption></figure>
 
-* Click **\[Export to Excel]** on the **\[Process]** page.
-* To view the recently retrieved data, navigate to the **\[Results]** page and click the **\[Action]** button to export in Excel, CSV, and JSON formats.
+- Click **\[Export to Excel]** on the **\[Process]** page.
+- To view the recently retrieved data, navigate to the **\[Results]** page and click the **\[Action]** button to export in Excel, CSV, and JSON formats.
 
 ## **Handling a Computer Crash During Data Extraction**
 
@@ -83,10 +83,10 @@ NoBox offers a feature for unexpected computer/software shutdowns during data ex
 
 <figure><img src="../../.gitbook/assets/Komputer mati.png" alt=""><figcaption></figcaption></figure>
 
-* Reopen the NoBox application and navigate to the **\[Extractor-> OLX]** menu. A notification will appear stating that the previous process is not yet complete.
-* Click **\[OK]** to proceed with data search.
-* Click **\[Cancel]** to cancel the search.
+- Reopen the NoBox application and navigate to the **\[Extractor-> OLX]** menu. A notification will appear stating that the previous process is not yet complete.
+- Click **\[OK]** to proceed with data search.
+- Click **\[Cancel]** to cancel the search.
 
-***
+---
 
 If you experience any issues or difficulties with NoBox Desktop, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

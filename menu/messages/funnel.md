@@ -6,7 +6,7 @@ icon: filter
 
 Funnel is a feature in Nobox.Ai used to categorize stages in marketing and support processes.
 
-{% embed url="https://youtu.be/bNBOuWh_xGQ" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/bNBOuWh_xGQ/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Funnel.PNG" alt=""><figcaption></figcaption></figure>
 
@@ -32,6 +32,6 @@ To edit funnel data, select the data you want to edit. Edit your data and click 
 
 <figure><img src="../../.gitbook/assets/Cara Funnel.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties regarding Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

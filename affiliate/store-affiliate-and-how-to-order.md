@@ -8,7 +8,7 @@ icon: store
 
 An affiliate store is a collection of products sold by an affiliate.
 
-{% embed url="https://youtu.be/WhdytJs5Vyc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/WhdytJs5Vyc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <table data-header-hidden><thead><tr><th width="165.20001220703125"></th><th></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/affiliate cart.png" alt=""></td><td>The basket is used for the management of selected products.</td></tr><tr><td><img src="../.gitbook/assets/affiliate tag.png" alt=""></td><td>Products for sale</td></tr><tr><td><img src="../.gitbook/assets/affiliate order list.png" alt=""></td><td>Used for managing your order list.</td></tr><tr><td><img src="../.gitbook/assets/affiliate search.png" alt=""></td><td>Search is used for product lookup.</td></tr><tr><td><img src="../.gitbook/assets/affiliate all products (1).png" alt=""></td><td>Display all products</td></tr><tr><td><img src="../.gitbook/assets/affiliate category.png" alt=""></td><td>Display products per category</td></tr></tbody></table>
 
@@ -40,6 +40,6 @@ To cancel an order, click **\[View orders]** on the **\[Processing]** tab ➔ Cl
 
 <figure><img src="../.gitbook/assets/affiliate store cancel.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

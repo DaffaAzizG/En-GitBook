@@ -8,7 +8,7 @@ Method for Earning Commission by Promoting CRM Products
 
 Earn a sales commission of 30% for every product sold through your affiliate link. The sales commission will be automatically recorded in your Affiliate system.
 
-{% embed url="https://youtu.be/5iya4OOkmog" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/5iya4OOkmog/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Products List
 
@@ -91,6 +91,6 @@ The "Reports" menu is used for commission reports, available in table or chart f
 
 <figure><img src="../.gitbook/assets/affiliate reports.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

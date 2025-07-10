@@ -6,7 +6,7 @@ icon: bullseye-arrow
 
 Company Target is a feature in Nobox.Ai used to set a marketing target for a company each month.
 
-{% embed url="https://youtu.be/KqUtWqBx0T4" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/KqUtWqBx0T4/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Company Target.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,6 +35,6 @@ The current revenue will be displayed when the offer associated with the company
 
 <figure><img src="../../.gitbook/assets/Current Income.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you encounter any issues or difficulties related to Nobox.Ai, please contact us at [Support Ticket](https://crm.nobox.ai/clients/tickets)

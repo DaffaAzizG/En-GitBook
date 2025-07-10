@@ -6,7 +6,7 @@ icon: message-lines
 
 The message model is a feature on Nobox.Ai used to create promotional message models.
 
-{% embed url="https://youtu.be/fUkihH0-qHc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/fUkihH0-qHc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Message Template.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,6 +38,6 @@ A dialog box **\[Select Model]** will appear. Choose the message model you want 
 
 <figure><img src="../../.gitbook/assets/apply template.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

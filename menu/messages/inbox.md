@@ -6,19 +6,19 @@ icon: inbox
 
 Inbox is one of the NoBox.Ai features used to manage all incoming messages from various channels such as WhatsApp, Telegram, Shopee, etc.
 
-{% embed url="https://youtu.be/CeNBiHeQ1aU" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/CeNBiHeQ1aU/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Inbox (1).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="160.199951171875">Features/Buttons</th><th>Function</th></tr></thead><tbody><tr><td>All</td><td>All incoming conversations.</td></tr><tr><td>Unassigned</td><td>All conversations not yet assigned to an agent.</td></tr><tr><td>Assigned</td><td>Conversation assigned to the agent.</td></tr><tr><td>Resolved</td><td>Content includes a conversation that has been successfully completed/answered, and the agent wants to end the dialogue.</td></tr></tbody></table>
 
-* The Archive Conversation feature allows users to store or sort messages that may no longer be relevant or need a response. By archiving, users can clean up their main conversation list without permanently deleting those messages. Please click the icon **\[**![](../../.gitbook/assets/Arsip.png)**]** To display archived conversations.
-* You can filter conversations by Status, Channel, Account, Contact, etc. To filter conversations, please click the icon. **\[**![](../../.gitbook/assets/filter.png)**]** To display a conversation filter, click the **\[Show]** button after setting the desired data filter, and the conversation will appear according to the filter. Click **\[Reset]** to remove the conversation filter.
+- The Archive Conversation feature allows users to store or sort messages that may no longer be relevant or need a response. By archiving, users can clean up their main conversation list without permanently deleting those messages. Please click the icon **\[**![](../../.gitbook/assets/Arsip.png)**]** To display archived conversations.
+- You can filter conversations by Status, Channel, Account, Contact, etc. To filter conversations, please click the icon. **\[**![](../../.gitbook/assets/filter.png)**]** To display a conversation filter, click the **\[Show]** button after setting the desired data filter, and the conversation will appear according to the filter. Click **\[Reset]** to remove the conversation filter.
 
 ![](../../.gitbook/assets/FIlter.PNG)
 
-* The Conversation Feature allows users to start a new conversation with existing contacts in their list. This can be very useful for initiating chats with someone without having to manually search for the contact or group name. Please click the icon **\[**![](<../../.gitbook/assets/percakapan baru.png>)**]** to make a new dialogue
-* The Search feature is used to find conversations or contacts that match the typed keywords.
+- The Conversation Feature allows users to start a new conversation with existing contacts in their list. This can be very useful for initiating chats with someone without having to manually search for the contact or group name. Please click the icon **\[**![](<../../.gitbook/assets/percakapan baru.png>)**]** to make a new dialogue
+- The Search feature is used to find conversations or contacts that match the typed keywords.
 
 ![](../../.gitbook/assets/Pencarian.png)
 
@@ -79,40 +79,40 @@ On the Inbox page, there is chat information. Please click the **\[**![](<../../
 
 There are several parts, each with their own function. The explanation of these functions is as follows:
 
-* Information (name, profile photo, and phone number).
-* Conversation History is a feature used to display the history of completed conversations.
+- Information (name, profile photo, and phone number).
+- Conversation History is a feature used to display the history of completed conversations.
 
 ![](<../../.gitbook/assets/History Conversation.png>)
 
-* To update contact details, click the icon **\[**[![](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)**]** which will direct you to edit the contact information.
+- To update contact details, click the icon **\[**[![](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)](https://crm.nobox.ai/media/public/Knowladge%20Base%20New/Chat/edit%20contact.png)**]** which will direct you to edit the contact information.
 
 ![](../../.gitbook/assets/Contact.png)
 
-* The information includes the conversation account handler, the conversation creation date, and the date of the last message sent.
+- The information includes the conversation account handler, the conversation creation date, and the date of the last message sent.
 
 ![](<../../.gitbook/assets/Conversation .png>)
 
-* Notes are records related to the selected conversation. Notes can be added, edited, and deleted. Other agents can also add notes.
+- Notes are records related to the selected conversation. Notes can be added, edited, and deleted. Other agents can also add notes.
 
 ![](../../.gitbook/assets/Notes.png)
 
-* Tags are a feature used to categorize your chat data, and you can add more than one tag in a single chat.
+- Tags are a feature used to categorize your chat data, and you can add more than one tag in a single chat.
 
 ![](<../../.gitbook/assets/Tag .png>)
 
-* Campaign is a feature used to convey promotional information connected to that conversation.
+- Campaign is a feature used to convey promotional information connected to that conversation.
 
 ![](../../.gitbook/assets/Campaign.png)
 
-* Funnel is one of the features used to categorize stages in marketing and support processes, or you can also create a new funnel.
+- Funnel is one of the features used to categorize stages in marketing and support processes, or you can also create a new funnel.
 
 ![](../../.gitbook/assets/Funnel.png)
 
-* A deal is a feature used to link the deal with the conversation.
+- A deal is a feature used to link the deal with the conversation.
 
 ![](../../.gitbook/assets/Deal.png)
 
-* Agent is a feature used to provide information about which agents are handling the conversation.
+- Agent is a feature used to provide information about which agents are handling the conversation.
 
 ![](<../../.gitbook/assets/Agen Percakapan.png>)
 
@@ -122,7 +122,7 @@ You can reply to incoming messages directly with NoBox. Open a conversation and 
 
 <figure><img src="../../.gitbook/assets/bals pesan.png" alt=""><figcaption></figcaption></figure>
 
-Message status can be determined by the message indicator. If the message has the symbol **\[**![](<../../.gitbook/assets/Percakapan terkirim.png>)**]** it has been sent; if the message has the symbol **\[**![](../../.gitbook/assets/terkirim.png)**]**  it has not been sent.
+Message status can be determined by the message indicator. If the message has the symbol **\[**![](<../../.gitbook/assets/Percakapan terkirim.png>)**]** it has been sent; if the message has the symbol **\[**![](../../.gitbook/assets/terkirim.png)**]** it has not been sent.
 
 ## **Delete Message**
 
@@ -131,7 +131,7 @@ On the Inbox page, there is a delete message feature used to remove messages fro
 <figure><img src="../../.gitbook/assets/delete pesan.png" alt=""><figcaption></figcaption></figure>
 
 In the Inbox page, there is a feature to send files such as images, photos, voice notes, PDFs, Excel, etc. To send a file, please click the icon **\[**![](<../../.gitbook/assets/kirim file.png>)**]** and select the file you want to send \
-&#xNAN;**\[**![](<../../.gitbook/assets/tipe kirim file.png>)**]**.  A dialog **\[Select File]** will appear for you to upload and send the file.
+&#xNAN;**\[**![](<../../.gitbook/assets/tipe kirim file.png>)**]**. A dialog **\[Select File]** will appear for you to upload and send the file.
 
 <figure><img src="../../.gitbook/assets/kirim pesan file.png" alt=""><figcaption></figcaption></figure>
 
@@ -146,6 +146,6 @@ One of the menus in NoBox used for message templates to reply to messages faster
 
 <figure><img src="../../.gitbook/assets/balas dengan quick reply.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you encounter any problems or difficulties related to NoBox, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

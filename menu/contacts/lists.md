@@ -6,7 +6,7 @@ icon: list
 
 List is one of the menus in Nobox.Ai used to categorize contact data.
 
-{% embed url="https://youtu.be/OfOOjWDD_1c" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/OfOOjWDD_1c/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Lists  (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -46,7 +46,7 @@ To delete all contact data in a list, select the desired list, then click **\[De
 
 <figure><img src="../../.gitbook/assets/Delete All Contacts .png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait Nobox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)
 

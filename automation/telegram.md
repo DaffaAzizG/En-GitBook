@@ -6,7 +6,7 @@ icon: telegram
 
 Efficient Telegram automation can streamline your follow-ups with prospective customers, delivering messages to Telegram quickly and with high quality. It enables the sending of customizable automated messages tailored to your needs and can be integrated with a chatbot to enhance interactions with potential customers effectively.
 
-{% embed url="https://youtu.be/KwqRV1o5bGM" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/KwqRV1o5bGM/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New Account**
 
@@ -22,24 +22,24 @@ After you complete the fields, click **\[Save]** to save the newly created accou
 
 Here you can see that the Telegram account has been successfully created. The newly created account will appear in NoboxChatSession. Follow the steps below to configure your Telegram account.
 
-* **Accessing API Development Tools:**
-  * Enter your Telegram number, click **\[Sign In]**, open settings, and select **\[API Development Tools]**.
-  * If this is your first time using the Telegram API, follow these steps:
-    * **Enter App Title:** Enter the title of your application.
-    * **Enter Short Name:** Enter a short name for your application.
-    * **Select Platform:** Select the platform used, such as Android, iOS, or others.
-* **Creating a Telegram API:**
-  * After filling in all the required information, click the **\[Create Application]** button to create a Telegram API application.
-  * Once the application is successfully created, your Telegram API data will be displayed.
+- **Accessing API Development Tools:**
+  - Enter your Telegram number, click **\[Sign In]**, open settings, and select **\[API Development Tools]**.
+  - If this is your first time using the Telegram API, follow these steps:
+    - **Enter App Title:** Enter the title of your application.
+    - **Enter Short Name:** Enter a short name for your application.
+    - **Select Platform:** Select the platform used, such as Android, iOS, or others.
+- **Creating a Telegram API:**
+  - After filling in all the required information, click the **\[Create Application]** button to create a Telegram API application.
+  - Once the application is successfully created, your Telegram API data will be displayed.
 
 <figure><img src="../.gitbook/assets/Membuat API Telegram.png" alt=""><figcaption></figcaption></figure>
 
-* **Save Session**
-  * Then click the **\[Save Session]** button, a notification will appear indicating that the session saving process is in progress. Click **\[OK]** to continue.
-  * Wait a moment until a dialog appears to enter the verification code.
-  * Enter the verification code sent by Telegram, click **\[OK]**.
-  * Ensure there is information in the logs tab stating “Save session Telegram Automation successfully”.
-  * The configuration process is successful, and your Telegram account is ready to use.
+- **Save Session**
+  - Then click the **\[Save Session]** button, a notification will appear indicating that the session saving process is in progress. Click **\[OK]** to continue.
+  - Wait a moment until a dialog appears to enter the verification code.
+  - Enter the verification code sent by Telegram, click **\[OK]**.
+  - Ensure there is information in the logs tab stating “Save session Telegram Automation successfully”.
+  - The configuration process is successful, and your Telegram account is ready to use.
 
 <figure><img src="../.gitbook/assets/Save Session Telegram.png" alt=""><figcaption></figcaption></figure>
 
@@ -70,6 +70,6 @@ To edit an account, please visit the Nobox website, click on the **\[Account]** 
 
 To delete an account, select the account you wish to delete, then click **\[Delete]**. A confirmation notification will appear asking if you want to delete the account. Click **\[Yes]** to confirm, or **\[No]** to cancel.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

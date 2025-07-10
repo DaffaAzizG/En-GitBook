@@ -2,7 +2,7 @@
 
 Indonesiayp.com Extractor is a feature used to extract business prospect data from Indonesiayp.com with excellent speed and quality results.
 
-{% embed url="https://youtu.be/h5lGGJP_V8M" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/h5lGGJP_V8M/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Add Account**
 
@@ -22,9 +22,9 @@ After adding a new account, you only need to open the Indonesiayp account you ju
 
 Input:
 
-* For accounts that have just been created, they will appear on NoBox Desktop. Then log in to the Indonesiayp account to link it with your account.
-* Make sure the **\[Logs]** tab contains the information **"Ready to start"**.
-* If so, the account is ready for use.
+- For accounts that have just been created, they will appear on NoBox Desktop. Then log in to the Indonesiayp account to link it with your account.
+- Make sure the **\[Logs]** tab contains the information **"Ready to start"**.
+- If so, the account is ready for use.
 
 ## **Basic Operations**
 
@@ -47,10 +47,10 @@ Scraping data from Indonesiayp.com allows you to quickly and easily extract sell
 
 <figure><img src="../.gitbook/assets/Dasar Indonesiayp (1).png" alt=""><figcaption></figcaption></figure>
 
-* After data processing is complete, click **\[Start]** to begin data extraction
-* Wait a moment until a notification indicates that the data extraction is complete
-* If the amount of data retrieved is less than the amount entered, there are duplicate data items excluded from the same installer
-* The extracted data will automatically be saved to the Contacts menu in NoBox.Ai
+- After data processing is complete, click **\[Start]** to begin data extraction
+- Wait a moment until a notification indicates that the data extraction is complete
+- If the amount of data retrieved is less than the amount entered, there are duplicate data items excluded from the same installer
+- The extracted data will automatically be saved to the Contacts menu in NoBox.Ai
 
 ## **Export Data**
 
@@ -58,8 +58,8 @@ NoBox provides options to save the extracted data in Excel (.xlsx, .csv) and JSO
 
 <figure><img src="../.gitbook/assets/Exportyp.png" alt=""><figcaption></figcaption></figure>
 
-* Click **\[Export to Excel]** on the **\[Process]** page.
-* To see the newly retrieved data, go to the **\[Results]** page and click the **\[Action]** button to export in Excel, CSV, and JSON formats.
+- Click **\[Export to Excel]** on the **\[Process]** page.
+- To see the newly retrieved data, go to the **\[Results]** page and click the **\[Action]** button to export in Excel, CSV, and JSON formats.
 
 ## **NoBox.Ai Website**
 
@@ -67,9 +67,9 @@ Extracted data will be automatically stored on the NoBox.Ai website, allowing yo
 
 <figure><img src="../.gitbook/assets/Web Nobox.png" alt=""><figcaption></figcaption></figure>
 
-* Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
-* Choose the filter **\[Source -> Indonesiayp.com]**.
-* Enable the **\[Auto Refresh]** feature to monitor which data has been successfully processed.
+- Go to the **\[Contacts]** section and select the **\[Contacts]** menu.
+- Choose the filter **\[Source -> Indonesiayp.com]**.
+- Enable the **\[Auto Refresh]** feature to monitor which data has been successfully processed.
 
 ## **Multi Tab**
 
@@ -77,8 +77,8 @@ The Indonesiayp.com Extractor supports multi-tab processes, allowing searches wi
 
 <figure><img src="../.gitbook/assets/Muti tab.png" alt=""><figcaption></figcaption></figure>
 
-* Extract data from one account using the tool with the search term "Bags" located in "Jakarta," obtaining 2 pieces of data, and add them to the Indonesiayp list.
-* Add one more account with the same search term but with a different location and a different result limit.
+- Extract data from one account using the tool with the search term "Bags" located in "Jakarta," obtaining 2 pieces of data, and add them to the Indonesiayp list.
+- Add one more account with the same search term but with a different location and a different result limit.
 
 ## **Handling Unexpected Shutdown During Data Extraction**
 
@@ -108,6 +108,6 @@ To edit an account, please open and log in to the website [id.nobox.ai](https://
 
 To delete an account, select the account you wish to delete, then click **\[Delete]**, and a confirmation notification will appear asking if you want to delete the account. If yes, click **\[Yes]**; if not, click **\[No].**
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

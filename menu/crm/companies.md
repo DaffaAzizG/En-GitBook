@@ -6,7 +6,7 @@ icon: building-memo
 
 The "Company" feature in CRM NoBox.Ai is used for managing information and activities related to a customer's company or business.
 
-{% embed url="https://youtu.be/ike07JFtXtc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/ike07JFtXtc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Companies.png" alt=""><figcaption></figcaption></figure>
 
@@ -93,6 +93,6 @@ Only NoBox.Ai Supervisors can use this feature. Agents can add notes but cannot 
 
 To edit a record, please click the icon **\[**![](../../.gitbook/assets/Edit.png)**]** next to the record you want to edit. Edit the record and click the send button or press enter on your keyboard to save the changes. To delete a record, please click the \[![](../../.gitbook/assets/Hapus.png)] icon next to the record you want to delete. A confirmation dialog will appear asking if you want to delete the record. If yes, click **\[Yes]**; if not, click **\[No]**.
 
-***
+---
 
 If you encounter any issues or difficulties related to NoBox.Ai, please contact us at [Support Ticket](https://crm.nobox.ai/clients/tickets)

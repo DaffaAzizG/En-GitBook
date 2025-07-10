@@ -6,7 +6,7 @@ icon: whatsapp
 
 WhatsApp Automation can efficiently automate follow-ups with your prospects and send messages to WhatsApp quickly and with high quality. It allows you to send automated messages that can be customized as needed and can connect with chatbots to effectively enhance interaction with potential customers.
 
-{% embed url="https://youtu.be/ojiToqKbZJA" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/ojiToqKbZJA/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New Account**
 
@@ -58,6 +58,6 @@ To edit an account, please open and log in to the Nobox website, click the **\[A
 
 To delete an account, please select the account you wish to delete, then click **\[Delete]**. A confirmation notice will appear asking if you want to delete the account. If yes, click **\[Yes]**; if not, click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

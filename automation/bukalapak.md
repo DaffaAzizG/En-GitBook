@@ -2,7 +2,7 @@
 
 Bukalapak Automation efficiently automates follow-ups for your potential customers and sends messages to Bukalapak with the best speed and quality. This software assists your business by automatically sending messages to your potential customers and can deliver various types of messages tailored to your business needs.
 
-{% embed url="https://youtu.be/p3Hj9Kipzsg" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/p3Hj9Kipzsg/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New Account**
 
@@ -20,10 +20,10 @@ After adding a new account, you only need to open the Bukalapak account you have
 
 <figure><img src="../.gitbook/assets/Login Bukalapak.png" alt=""><figcaption></figcaption></figure>
 
-* Open the NoBox Desktop application.
-* For newly created accounts, it will appear on NoBox Desktop. Then log in to your Bukalapak account to link it with your Bukalapak.
-* Ensure that the **\[Logs]** tab contains the information **"Bukalapak Automation is ready"**.
-* In the **\[Outbox]** tab, make sure the status is **\[Worker On]**. The account is then ready for use.
+- Open the NoBox Desktop application.
+- For newly created accounts, it will appear on NoBox Desktop. Then log in to your Bukalapak account to link it with your Bukalapak.
+- Ensure that the **\[Logs]** tab contains the information **"Bukalapak Automation is ready"**.
+- In the **\[Outbox]** tab, make sure the status is **\[Worker On]**. The account is then ready for use.
 
 ## **Automatic Login**
 
@@ -78,6 +78,6 @@ To edit an account, please visit and log in to the website [id.nobox.ai](https:/
 
 To delete an account, select the account you wish to delete, then click **\[Delete]**. A confirmation message will appear asking if you want to delete the account. Click **\[Yes]** to proceed or **\[No]** to cancel.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

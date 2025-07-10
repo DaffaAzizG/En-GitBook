@@ -6,7 +6,7 @@ icon: tags
 
 The Product Tag is a feature in NoBox.Ai used to categorize your product data.
 
-{% embed url="https://youtu.be/OZ3wlC0JokA" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/OZ3wlC0JokA/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Product Tags.png" alt=""><figcaption></figcaption></figure>
 
@@ -40,6 +40,6 @@ Product tag filters are used to sort product data and display data based on the 
 
 <figure><img src="../../.gitbook/assets/Filter tag.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties regarding NoBox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

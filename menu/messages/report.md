@@ -6,7 +6,7 @@ icon: file-chart-column
 
 The "Laporan" is a feature on Nobox.Ai used to display reports of conversations conducted.
 
-{% embed url="https://youtu.be/5Qh-VXqYfIY" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/5Qh-VXqYfIY/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Agent Status
 
@@ -38,6 +38,6 @@ Contains data on the number of tags used in a date-based format, filtered by mon
 
 <figure><img src="../../.gitbook/assets/Tag Conversations.PNG" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you encounter any issues or difficulties with Nobox.Ai, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

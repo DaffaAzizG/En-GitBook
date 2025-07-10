@@ -6,7 +6,7 @@ icon: gear
 
 The form settings are a menu in NoBox that contains format settings for the form model menu.
 
-{% embed url="https://youtu.be/axmGUD-cOJc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/axmGUD-cOJc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Pengaturan Formulir (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -54,6 +54,6 @@ Reset is a feature used to revert all settings that have been changed.
 
 <figure><img src="../../.gitbook/assets/Atur Ulang Pengaturan Formulir.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

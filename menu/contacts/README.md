@@ -6,7 +6,7 @@ icon: address-book
 
 Contact is a feature within Nobox.Ai used to store extracted contact data and manage target promotion data.
 
-{% embed url="https://youtu.be/3EXx7AMWzwg" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/3EXx7AMWzwg/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Contacts .png" alt=""><figcaption></figcaption></figure>
 
@@ -221,6 +221,6 @@ To edit a contact, please first select the data you wish to edit. Edit your data
 
 To delete a contact, select the contact you want to delete, then click **\[Delete]**. A confirmation dialog will appear asking if you want to delete the data. If yes, click **\[Yes]** if not, click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

@@ -6,7 +6,7 @@ icon: gauge-min
 
 Summary of promotional activities information to facilitate decision-making.
 
-{% embed url="https://youtu.be/7NR7TmowmtY" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/7NR7TmowmtY/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Campaign Dashboard.png" alt=""><figcaption></figcaption></figure>
 

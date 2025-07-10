@@ -6,7 +6,7 @@ icon: layer-group
 
 The Task Category is a menu on Nobox.Ai used to classify task data.
 
-{% embed url="https://youtu.be/y3ffMdfodHs" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/y3ffMdfodHs/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Add Task Category
 
@@ -38,6 +38,6 @@ To delete a category data, select the data you wish to remove, then click **\[De
 
 3\. Choose one of the data categories and click **\[Save]** to save the task data again.
 
-***
+---
 
 If you encounter any problems or difficulties related to Nobox.Ai, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

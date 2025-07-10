@@ -4,7 +4,7 @@ icon: door-open
 
 # Register
 
-{% embed url="https://youtu.be/8SWFEna6-jk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/8SWFEna6-jk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Creating a New User and Business
 
@@ -34,6 +34,6 @@ The following are the steps to register and join an existing business:
 
 If all the above steps are correctly followed, you should be able to join an existing business on the NoBox.ai platform. If you encounter issues or do not receive the verification email, please check your email's spam folder or contact NoBox.ai customer support for further assistance.
 
-***
+---
 
 If you encounter any issues or difficulties with NoBox.Ai, please contact us via [Support Ticket](https://crm.nobox.ai/clients/tickets)

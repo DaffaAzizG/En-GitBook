@@ -6,7 +6,7 @@ icon: key
 
 This feature can assist you if you forget your password when logging into the website id.nobox.ai. Here's how to do it:
 
-{% embed url="https://youtu.be/jdv8A8J8cdk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/jdv8A8J8cdk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 1. Click **\[Forgot Password]** on the login page **➔** enter your email address and check the reCAPTCHA.
 2. Click **\[Reset My Password]** and a password reset notification will be sent to your email.
@@ -25,6 +25,6 @@ This feature can assist you if you forget your password when logging into the we
 6. Click **\[OK]** to go to the login page of the website id.nobox.ai
 7. Please log in with your new password.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

@@ -4,7 +4,7 @@ icon: arrow-right-to-bracket
 
 # CRM User Registration
 
-{% embed url="https://youtu.be/0ectimbtruk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/0ectimbtruk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 1\. Open Website [crm.nobox.ai](https://crm.nobox.ai/)
 
@@ -24,6 +24,6 @@ icon: arrow-right-to-bracket
 
 To subscribe, follow these steps: [Subscriptions](../menu/subscription.md)
 
-***
+---
 
 If you encounter any issues or difficulties with NoBox, please contact us through [Support Ticket](https://crm.mynobox.com/clients/tickets)

@@ -6,7 +6,7 @@ icon: id-card
 
 To register as an affiliate, you can follow these steps:
 
-{% embed url="https://youtu.be/ezorU8sCOTQ" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/ezorU8sCOTQ/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 1. Open the affiliate portal website [click here](https://crm.nobox.ai/affiliate/authentication_affiliate/register)
 2. Fill in your personal data
@@ -25,6 +25,6 @@ To register as an affiliate, you can follow these steps:
 | Password        | User Password   | -                      |
 | Repeat password | Repeat Password | -                      |
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

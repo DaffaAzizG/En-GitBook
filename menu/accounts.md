@@ -6,7 +6,7 @@ icon: circle-user
 
 The "Account" is a menu option in Nobox.Ai used for managing account data and the Nobox Desktop tools.
 
-{% embed url="https://youtu.be/bv4CHVWJu1M" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/bv4CHVWJu1M/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New WhatsApp Account**
 
@@ -16,13 +16,13 @@ To add a WhatsApp account, please click on the **\[Account]**➔**\[NewAccount]*
 
 Complete the necessary fields, for example as follows:
 
-| Field    | Description                       | Example           |
-| -------- | --------------------------------- | ----------------- |
-| Name     | WhatsApp account name             | s\_WhatsApp Cs #1 |
-| Category | Choose a category                 | Automation        |
-| Channel  | Choose a channel                  | WhatsApp          |
-| Status   | Information on the account status | Active            |
-| Notes    | Provide notes about the account   | -                 |
+| Field    | Description                       | Example          |
+| -------- | --------------------------------- | ---------------- |
+| Name     | WhatsApp account name             | s_WhatsApp Cs #1 |
+| Category | Choose a category                 | Automation       |
+| Channel  | Choose a channel                  | WhatsApp         |
+| Status   | Information on the account status | Active           |
+| Notes    | Provide notes about the account   | -                |
 
 Once you have filled out the fields, click **\[Save]** to save the new account data you just created. Scan the QR code to link with your WhatsApp.
 
@@ -40,14 +40,14 @@ To add a Telegram account, click the **\[Account]**➔**\[New Account]** menu, a
 
 Fill out the required information, as shown in the following example:
 
-| Field     | Category                                     | Example           |
-| --------- | -------------------------------------------- | ----------------- |
-| Name      | Telegram account name                        | s\_Telegram CS #1 |
-| Category  | Choose a category                            | Automation        |
-| Channel   | Choose a channel                             | Telegram          |
-| Status    | Information on whether the account is active | Active            |
-| Notes     | Provide notes about the account              | -                 |
-| Client Id | Your Telegram phone number                   | +628888888888     |
+| Field     | Category                                     | Example          |
+| --------- | -------------------------------------------- | ---------------- |
+| Name      | Telegram account name                        | s_Telegram CS #1 |
+| Category  | Choose a category                            | Automation       |
+| Channel   | Choose a channel                             | Telegram         |
+| Status    | Information on whether the account is active | Active           |
+| Notes     | Provide notes about the account              | -                |
+| Client Id | Your Telegram phone number                   | +628888888888    |
 
 Once you have completed the fields, click **\[Save]** to save the newly created account data. Please wait a moment until you receive an OTP from Telegram. An OTP dialog will appear on the Nobox website. Enter the OTP code you received, and click \[Send].
 
@@ -58,8 +58,6 @@ You can see here that the WhatsApp account has been successfully created.
 ## **New Bukalapak Account**
 
 To add a Bukalapak account, click on the **\[Account]**➔**\[New Account]** menu, and the **\[New Account]** dialog will appear.
-
-
 
 <figure><img src="../.gitbook/assets/add account bukalapak.png" alt=""><figcaption></figcaption></figure>
 
@@ -143,6 +141,6 @@ To edit account data, first select the data you wish to edit. After making your 
 
 To delete account data, select the account data you wish to delete, then click **\[Delete]**. A confirmation dialog will appear asking if you want to delete the selected data. If yes, click **\[Yes]**, otherwise click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

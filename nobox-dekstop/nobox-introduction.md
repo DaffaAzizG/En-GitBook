@@ -6,7 +6,7 @@ icon: hand-wave
 
 ## **Overview of NoBox Desktop**
 
-{% embed url="https://youtu.be/PHmHyLchx_Q" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/PHmHyLchx_Q/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 NoBox Desktop is a digital platform application that assists modern marketing teams in expanding their customer leads in line with targets from 700+ top business directory sites and classifieds worldwide, then broadcasts promotions across various channels including WhatsApp, Telegram, Email, Shopee, Facebook, TikTok, and more. The results of promotional broadcasts are easy to monitor, classify, and follow up to achieve sales.
 
@@ -28,6 +28,6 @@ NoBox has various advantages viewed from different aspects. You can observe thes
 2. **Contacts Extractor**\
    With Chrome browser support, which allows extracting business prospect data (your potential customers) from a single network site with the best speed and quality of results from various countries. NoBox Desktop software can extract various available data from websites including links, business names, addresses, phone numbers, websites, ratings, total views, opening hours, image links, latitude, longitude, plus code, and field of business, like Google Maps Extractor, OLX Sites Extractor, etc.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

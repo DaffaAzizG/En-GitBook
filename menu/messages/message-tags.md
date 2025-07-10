@@ -6,7 +6,7 @@ icon: tags
 
 The Message Tag is a feature in Nobox.Ai used to categorize your message data.
 
-{% embed url="https://youtu.be/N0RkBCsJqsA" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/N0RkBCsJqsA/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure><img src="../../.gitbook/assets/Message Tags.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,6 +32,6 @@ To edit a tag data, first select the data you want to edit. Edit the data and cl
 
 <figure><img src="../../.gitbook/assets/Cara Tag.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

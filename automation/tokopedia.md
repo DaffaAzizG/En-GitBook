@@ -2,7 +2,7 @@
 
 Tokopedia Automation bisa secara efisien mengotomatisasi follow up calon pelanggan Anda dan mengirim pesan ke Tokopedia dengan kecepatan dan kualitas hasil yang terbaik. Software ini dapat membantu bisnis Anda untuk mengirimkan pesan secara otomatis kepada (calon pelanggan Anda) dan bisa mengirimkan berbagai jenis pesan yang dapat disesuaikan dengan kebutuhan bisnis Anda.
 
-{% embed url="https://youtu.be/TWrebWqXvRc" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/TWrebWqXvRc/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New Account**
 
@@ -49,6 +49,6 @@ To edit an account, please open and log in to the website [id.nobox.ai](https://
 
 To delete an account, please select the account you wish to delete, then click **\[Delete]**. A confirmation message will appear asking if you want to delete the account. If yes, click **\[Yes]**; if not, click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

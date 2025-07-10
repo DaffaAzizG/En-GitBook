@@ -4,7 +4,7 @@ icon: hand-holding-dollar
 
 # Billing
 
-{% embed url="https://youtu.be/0ectimbtruk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/0ectimbtruk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **How to Subscribe**
 
@@ -39,6 +39,6 @@ icon: hand-holding-dollar
 7. Once payment is confirmed, the status changes to **\[Close]**.
 8. You can check the **\[Invoice]** menu to see if the status has changed to paid and ensure that the new product information is updated in the **\[Subscription]** menu on id.nobox.ai.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

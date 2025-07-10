@@ -6,7 +6,7 @@ icon: head-side-goggles
 
 NoBox.Ai adalah aplikasi kecerdasan buatan (Al) untuk meningkatkan kualitas layanan marketing dan customer service di instansi pendidikan, bisnis dan pemerintah. NoBox membantu mengumpulkan dan mengelola data, broadcast pesan, dan menangani chat multi platform dibantu chatbot cerdas yang bisa beroperasi 24 jam non-stop sepanjang tahun.
 
-{% embed url="https://youtu.be/d3nexE3PqQk" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/d3nexE3PqQk/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Modul dan Keunggulan NoBox.Ai**
 
@@ -29,6 +29,6 @@ NoBox.Ai memiliki berbagai keunggulan yang dilihat dari berbagai sisi. Keunggula
 
 <table><thead><tr><th width="44.79998779296875">No</th><th>Daftar Keunggulan</th><th>Keterangan</th></tr></thead><tbody><tr><td></td><td><strong>Daftar Keunggulan</strong></td><td><strong>Keterangan</strong></td></tr><tr><td></td><td><strong>Tampilan</strong> </td><td></td></tr><tr><td>1</td><td>Menu Per Role User</td><td>Supervisor dan Agent</td></tr><tr><td>2</td><td>Tracking Data</td><td>Mentracking data dari tampilan dengan mudah</td></tr><tr><td>3</td><td>Tampilan data yang Fleksibel</td><td>Tampilan bisa disetting sesuai kebutuhan</td></tr><tr><td>4</td><td>Pilihan Tema</td><td>Terdapat 2 pilihan tema yang bisa diganti sesuai selera</td></tr><tr><td></td><td><strong>Keamanan</strong></td><td></td></tr><tr><td>1</td><td>Hak Akses User By Role User</td><td>Pengaturan hak akses berdasarkan role user</td></tr><tr><td></td><td><strong>Integrasi Dengan Aplikasi Lain</strong></td><td></td></tr><tr><td>1</td><td>Import contacts dari berbagai format file</td><td>Mengimport contacts dari file Excel dan CSV</td></tr><tr><td>2</td><td>Export contacts</td><td>Mengexport contacts dengan format google contacts</td></tr></tbody></table>
 
-***
+---
 
 Jika ada masalah atau kesulitan terkait NoBox.Ai, silahkan hubungi kami melalui [Support Ticket](https://crm.nobox.ai/clients/tickets)

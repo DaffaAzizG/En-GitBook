@@ -6,7 +6,7 @@ icon: sliders-up
 
 The Automation NoBox Desktop menu includes several features, such as the following:
 
-{% embed url="https://youtu.be/xhIlIABO3SQ" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/xhIlIABO3SQ/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Manage Chat**
 
@@ -56,7 +56,7 @@ This feature is used to store your account's contact data in NoBox.Ai as follows
 
 This feature is used to save contact data in Excel format (.xls, .csv) using the following method:
 
-* Click on the **\[Chats]** or **\[Contact] ➔ \[Actions] ➔ \[Export to Excel]** menu, and the selected contacts will be saved.
+- Click on the **\[Chats]** or **\[Contact] ➔ \[Actions] ➔ \[Export to Excel]** menu, and the selected contacts will be saved.
 
 <figure><img src="../.gitbook/assets/Export to Excel.png" alt=""><figcaption></figcaption></figure>
 
@@ -100,6 +100,6 @@ Test is a feature used to test the delivery of the files you need.
 
 <table><thead><tr><th width="158.79998779296875">Feature</th><th>Description</th></tr></thead><tbody><tr><td>Send Text</td><td>Test feature to send text messages</td></tr><tr><td>Send Images</td><td>Test feature to send image messages in Jpg or Png format</td></tr><tr><td>Send Documents</td><td>Test feature to send document messages like pdf etc.</td></tr><tr><td>Send Audio</td><td>Test feature to send audio messages</td></tr><tr><td>Send Video</td><td>Test feature to send video messages</td></tr><tr><td>Send Stickers</td><td>Test feature to send sticker messages in Webp and Png</td></tr><tr><td>Send Location</td><td>Test feature to send your location</td></tr><tr><td>Send Contact</td><td>Test feature to send contact messages</td></tr><tr><td>Send Lists</td><td>Test feature to send other file types</td></tr></tbody></table>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

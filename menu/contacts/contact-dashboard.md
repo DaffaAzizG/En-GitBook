@@ -6,7 +6,7 @@ icon: gauge-min
 
 The Contact Dashboard is one of the menus on Nobox.Ai that provides a summary of activity information related to contacts and helps you make decisions.
 
-{% embed url="https://youtu.be/Z8C0_sGruBg" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/Z8C0_sGruBg/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To open the Contact Dashboard, click the \[Contact] module, then click \[Contact Dashboard].
 
@@ -18,6 +18,6 @@ In the display, there are several sections, each with its own function. The expl
 
 To view detailed data from the information, you can click on the chart. Then the contact data based on the selected chart data will be displayed.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

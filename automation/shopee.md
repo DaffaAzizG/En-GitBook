@@ -2,7 +2,7 @@
 
 Shopee Automation efficiently automates follow-ups with your potential customers and sends messages to Shopee quickly and with high quality. It allows you to send automated messages that can be customized according to your needs and can be integrated with a chatbot to effectively enhance interaction with potential customers.
 
-{% embed url="https://youtu.be/Dqt_3gNJ4OY" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/Dqt_3gNJ4OY/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **New Account**
 
@@ -20,8 +20,8 @@ Once you have completed the fields, click **\[Save]** to save the newly created 
 
 Here you can see that the Shopee Account has been successfully created. The newly created account will appear in NoboxChatSession. Follow the steps below to configure your Shopee account:
 
-* Log in to Shopee to link it with your Shopee account. Then click the **\[Save Session]** button. Ensure that the log tab contains the message "Save session Telegram Automation successfully."
-* Once the configuration process has been completed successfully, your Telegram account is ready to use.
+- Log in to Shopee to link it with your Shopee account. Then click the **\[Save Session]** button. Ensure that the log tab contains the message "Save session Telegram Automation successfully."
+- Once the configuration process has been completed successfully, your Telegram account is ready to use.
 
 <figure><img src="../.gitbook/assets/Save Session Shopee.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,6 +58,6 @@ To edit an account, please open and log in to the Nobox website, click on the **
 
 To delete an account, select which account you want to delete, then click **\[Delete]**. A confirmation notification will appear asking if you want to delete the account. If yes, click **\[Yes]**; if not, click **\[No]**.
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)

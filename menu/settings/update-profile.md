@@ -8,7 +8,7 @@ icon: address-card
 
 You can update your User Profile and Company Details. This article will explain how to do it.
 
-{% embed url="https://youtu.be/HAihg13T7J8" %}
+<iframe width="742" height="418" src="https://www.youtube.com/embed/HAihg13T7J8/" title="01. Instalasi NoBox Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **User Profile**
 
@@ -34,6 +34,6 @@ To learn and update company data information, you can follow the guide below:
 
 <table><thead><tr><th width="172.4000244140625">Field</th><th>Description</th></tr></thead><tbody><tr><td>Company</td><td>Name of the Company</td></tr><tr><td>City</td><td>Your Company's City</td></tr><tr><td>MyNoBox Tenant Id</td><td>Used to connect MyNoBox CRM and MyNoBox Website for subscription processes</td></tr><tr><td>Address</td><td>Full Company Address</td></tr><tr><td>Phone</td><td>Company Phone Number</td></tr><tr><td>Zip Code</td><td>Company Zip Code</td></tr><tr><td>Website</td><td>Company Website Name</td></tr><tr><td>State</td><td>City Name</td></tr><tr><td>Country</td><td>Country Name</td></tr><tr><td>Default Language</td><td>Language Used</td></tr></tbody></table>
 
-***
+---
 
 If you have any issues or difficulties related to Nobox.Ai, please contact us through [Support Ticket](https://crm.nobox.ai/clients/tickets)
