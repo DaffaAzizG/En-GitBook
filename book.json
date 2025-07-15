@@ -1,0 +1,14 @@
+{
+  "theme": "default",
+  "plugins": [],
+  "pluginsConfig": {
+    "theme-default": {
+      "templates": "../theme/templates",
+      "stylesheet": "../book.css"
+    }
+  },
+
+  "styles": {
+    "website": "styles/book.css"
+  }
+}
