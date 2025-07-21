@@ -146,6 +146,13 @@ code {
   margin-left: auto;
 }
 
+.book.color-theme-1 .book-header .font-settings {
+  color: #5b4636;
+}
+.book.color-theme-2 .book-header .font-settings {
+  color: #e0e0e0;
+}
+
 button[data-toggle="summary"],
 .toggle-summary {
   display: none !important;
@@ -360,12 +367,13 @@ button[data-toggle="summary"],
   color: #473223;
 }
 
+/* Ganti aturan .summary-group-header Anda dengan yang ini */
 .summary-group-header {
-  font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
   padding: 12px 20px 4px 20px;
   color: #6c757d;
+  font-size: 14px; /* Menerapkan ukuran font responsif */
 }
 
 /* Ikon di sidebar */
@@ -1193,20 +1201,19 @@ body.without-summary .book-body {
 }
 
 .book.color-theme-1 .outline-title {
-  color: #5c4b3d; /* Teks judul warna coklat tua */
+  color: #cb851e; /* Teks judul warna coklat tua */
 }
 
 .book.color-theme-1 .outline-list a {
-  color: #706156 !important; /* Teks menu warna coklat */
+  color: #cb851e !important; /* Teks menu warna coklat */
 }
 
 .book.color-theme-1 .outline-list a:hover {
-  color: #5a7d9a !important; /* Aksen warna biru pudar/usang */
-  background-color: #e9e4d9; /* Background hover warna krem lebih gelap */
+  background-color: #fef6e5; /* Background hover warna krem lebih gelap */
 }
 
 .book.color-theme-1 .outline-list a.active {
-  background-color: #5a7d9a; /* Warna aktif biru pudar */
+  background-color: #fef6e5; /* Warna aktif biru pudar */
   color: #f4f0e8 !important; /* Teks aktif warna background (krem) agar serasi */
 }
 
@@ -1222,28 +1229,30 @@ body.without-summary .book-body {
    ================================================================= */
 
 /* Kontainer utama untuk kedua tombol navigasi */
+/* ============================================= */
+/* ==      1. GAYA ASLI (MODE TERANG/DEFAULT)   == */
+/* ============================================= */
+
 .page-navigation {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  margin-top: 48px; /* Jarak dari konten di atasnya */
+  margin-top: 48px;
   padding-top: 24px;
-  border-top: 1px solid #e9ecef; /* Garis pemisah yang lembut */
+  border-top: 1px solid #e9ecef;
 }
 
-/* Gaya umum untuk setiap link (tombol) */
 .page-nav-link {
   display: block;
-  flex-basis: 48%; /* Bagi ruang hampir sama rata */
+  flex-basis: 48%;
   padding: 16px 20px;
   border: 1px solid #dee2e6;
   border-radius: 8px;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
   position: relative;
 }
 
-/* Efek saat di-hover */
 .page-nav-link:hover {
   transform: translateY(-4px);
   background-color: #f8f9fa;
@@ -1251,7 +1260,6 @@ body.without-summary .book-body {
   box-shadow: 0 8px 16px rgba(44, 62, 80, 0.08);
 }
 
-/* Label kecil seperti "Sebelumnya" atau "Selanjutnya" */
 .page-nav-link .nav-label {
   font-size: 12px;
   color: #7f8c8d;
@@ -1260,7 +1268,6 @@ body.without-summary .book-body {
   letter-spacing: 0.5px;
 }
 
-/* Judul halaman di tombol navigasi */
 .page-nav-link .nav-title {
   font-size: 16px;
   font-weight: 600;
@@ -1271,12 +1278,10 @@ body.without-summary .book-body {
   color: #3498db;
 }
 
-/* Penataan spesifik untuk tombol "Next" */
 .page-nav-link.next {
   text-align: right;
 }
 
-/* Menambahkan ikon panah menggunakan pseudo-element */
 .page-nav-link.prev::before,
 .page-nav-link.next::after {
   font-family: "Font Awesome 5 Free", "FontAwesome"; /* Pastikan FontAwesome dimuat */
@@ -1300,19 +1305,137 @@ body.without-summary .book-body {
 }
 
 .page-nav-link.prev {
-  padding-left: 50px; /* Beri ruang untuk ikon */
+  padding-left: 50px;
 }
 
 .page-nav-link.next {
-  padding-right: 50px; /* Beri ruang untuk ikon */
+  padding-right: 50px;
 }
 
-/* Ubah warna ikon saat hover */
 .page-nav-link:hover::before,
 .page-nav-link:hover::after {
   color: #3498db;
 }
 
+/* ============================================= */
+/* ==      2. TAMBAHAN UNTUK MODE GELAP       == */
+/* ==   Selector: .book.color-theme-1         == */
+/* ============================================= */
+
+.book.color-theme-1 .page-navigation {
+  border-top-color: #cb851e;
+}
+
+.book.color-theme-1 .page-nav-link {
+  border-color: #cb851e;
+  color: #cb851e;
+  background-color: transparent; /* Atau sesuaikan jika perlu */
+}
+
+.book.color-theme-1 .page-nav-link:hover {
+  background-color: #f4f0e8;
+  border-color: #cb851e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book.color-theme-1 .page-nav-link .nav-label {
+  color: #cb851e;
+}
+
+.book.color-theme-1 .page-nav-link .nav-title {
+  color: #cb851e;
+}
+
+.book.color-theme-1 .page-nav-link:hover .nav-title {
+  color: #cb851e;
+}
+
+.book.color-theme-1 .page-nav-link.prev::before,
+.book.color-theme-1 .page-nav-link.next::after {
+  color: #cb851e;
+}
+.book.color-theme-1 .page-nav-link:hover::before,
+.book.color-theme-1 .page-nav-link:hover::after {
+  color: #cb851e;
+}
+
+.book.color-theme-2 .page-navigation {
+  border-top-color: #dbe0e4;
+}
+
+.book.color-theme-2 .page-nav-link {
+  border-color: #dbe0e4;
+  background-color: transparent; /* Atau sesuaikan jika perlu */
+}
+
+.book.color-theme-2 .page-nav-link:hover {
+  background-color: #1e1e1e;
+  border-color: #80bfff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book.color-theme-2 .page-nav-link .nav-label {
+  color: #aab3bb;
+}
+
+.book.color-theme-2 .page-nav-link .nav-title {
+  color: #dbe0e4;
+}
+
+.book.color-theme-2 .page-nav-link:hover .nav-title {
+  color: #80bfff;
+}
+
+.book.color-theme-2 .page-nav-link.prev::before,
+.book.color-theme-2 .page-nav-link.next::after {
+  color: #9da6b0;
+}
+
+.book.color-theme-2 .page-nav-link:hover::before,
+.book.color-theme-2 .page-nav-link:hover::after {
+  color: #80bfff;
+}
+/* ============================================= */
+/* ==       3. TAMBAHAN UNTUK MODE SEPIA      == */
+/* ==   Selector: .book.color-theme-0         == */
+/* ============================================= */
+
+.book.color-theme-0 .page-navigation {
+  border-top-color: #e4dccd;
+}
+
+.book.color-theme-0 .page-nav-link {
+  border-color: #e4dccd;
+  background-color: transparent; /* Atau sesuaikan jika perlu */
+}
+
+.book.color-theme-0 .page-nav-link:hover {
+  background-color: #f5efe4;
+  border-color: #007bff;
+  box-shadow: 0 8px 16px rgba(85, 75, 65, 0.1);
+}
+
+.book.color-theme-0 .page-nav-link .nav-label {
+  color: #8c7f70;
+}
+
+.book.color-theme-0 .page-nav-link .nav-title {
+  color: #5c4d3d;
+}
+
+.book.color-theme-0 .page-nav-link:hover .nav-title {
+  color: #5a8fb3;
+}
+
+.book.color-theme-0 .page-nav-link.prev::before,
+.book.color-theme-0 .page-nav-link.next::after {
+  color: #a69b8f;
+}
+
+.book.color-theme-0 .page-nav-link:hover::before,
+.book.color-theme-0 .page-nav-link:hover::after {
+  color: #5a8fb3;
+}
 @media (max-width: 480px) {
   body {
     font-family: "Segoe UI", sans-serif;
@@ -1475,51 +1598,166 @@ body.without-summary .book-body {
   .book.with-summary .book-body {
     margin-left: 0 !important;
   }
-}
+  /* ============================================= */
+  /* ==      PENGATURAN TIPOGRAFI RESPONSİF     == */
+  /* ==  (Letakkan ini di bagian paling atas)    == */
+  /* ============================================= */
 
-@media (max-width: 768px) {
-  .book-header h1,
-  .book-header .title {
-    display: none !important;
+  :root {
+    --font-size-base: clamp(0.9rem, 0.8rem + 0.5vw, 1.1rem);
+    --font-size-h1: clamp(1.75rem, 1.5rem + 2vw, 2.75rem);
+    --font-size-h2: clamp(1.5rem, 1.25rem + 1.5vw, 2.25rem);
+    --font-size-h3: clamp(1.25rem, 1.1rem + 1vw, 1.75rem);
+    --font-size-small: clamp(0.75rem, 0.7rem + 0.25vw, 0.9rem);
   }
-  .book-summary {
-    position: static;
-    width: 100%;
-    margin-top: 0;
-    padding: 15px;
-    box-shadow: none;
-    border-top: 1px solid #e0e0e0;
-  }
-  .book-summary ul.summary li a {
-    padding: 12px;
-    font-size: 15px;
-  }
-  .book-summary ul.summary li a:hover {
-    background: #f0efef;
-  }
-  .book-body {
-    padding: 15px;
-    margin-top: 0;
-  }
-  #page-outline {
-    display: none !important;
-  }
-}
 
-@media (max-width: 900px) {
-  .book-summary {
-    position: static;
-    width: 100%;
-    margin-top: 0;
-    padding: 20px;
-    box-shadow: none;
-    border-top: 1px solid #e0e0e0;
+  .page-inner,
+  body {
+    font-size: var(--font-size-base);
   }
+
+  h1,
+  .h1 {
+    font-size: var(--font-size-h1);
+  }
+
+  h2,
+  .h2 {
+    font-size: var(--font-size-h2);
+  }
+
+  h3,
+  .h3 {
+    font-size: var(--font-size-h3);
+  }
+
   .book-summary ul.summary li a {
-    padding: 15px;
-    font-size: 16px;
+    font-size: var(--font-size-base);
   }
-  #page-outline {
-    display: none !important;
+
+  .page-nav-link .nav-title {
+    font-size: var(--font-size-base);
+  }
+
+  .page-nav-link .nav-label {
+    font-size: var(--font-size-small);
+  }
+
+  /* ======================================================= */
+  /* ==     MEDIA QUERY UNTUK LAYOUT (TANPA FONT-SIZE)    == */
+  /* ======================================================= */
+
+  @media (max-width: 900px) {
+    .book-summary {
+      position: static;
+      width: 100%;
+      margin-top: 0;
+      padding: 20px;
+      box-shadow: none;
+      border-top: 1px solid #e0e0e0;
+    }
+    .book-summary ul.summary li a {
+      padding: 15px;
+      /* font-size: 16px; DIHAPUS */
+    }
+    #page-outline {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .book-header h1,
+    .book-header .title {
+      display: none !important;
+    }
+    .book-summary {
+      padding: 15px;
+    }
+    .book-summary ul.summary li a {
+      padding: 12px;
+      /* font-size: 15px; DIHAPUS */
+    }
+    .book-summary ul.summary li a:hover {
+      background: #f0efef;
+    }
+    .book-body {
+      padding: 15px;
+      margin-top: 0;
+    }
+
+    /* Aturan layout untuk navigasi bawah */
+    .page-navigation {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 32px;
+    }
+    .page-nav-link.next {
+      text-align: left;
+    }
+    /* .page-nav-link .nav-title { font-size: 15px; DIHAPUS } */
+  }
+
+  @media (max-width: 480px) {
+    .book-summary {
+      padding: 10px;
+    }
+    .book-summary ul.summary li a {
+      padding: 10px;
+      /* font-size: 14px; DIHAPUS */
+    }
+    .book-body {
+      padding: 10px;
+    }
+
+    /* Aturan layout untuk navigasi bawah */
+    .page-nav-link {
+      padding: 12px 15px;
+    }
+    /* .page-nav-link .nav-label { font-size: 11px; DIHAPUS } */
+    /* .page-nav-link .nav-title { font-size: 14px; DIHAPUS } */
+    .page-nav-link.prev {
+      padding-left: 45px;
+    }
+    .page-nav-link.next {
+      padding-right: 45px;
+    }
+    .page-nav-link.prev::before {
+      left: 15px;
+    }
+    .page-nav-link.next::after {
+      right: 15px;
+    }
+  }
+  /* ============================================= */
+  /* ==   DIAGNOSIS: PAKSA TEKS JADI RESPONSİF  == */
+  /* ============================================= */
+
+  :root {
+    --font-size-base: clamp(0.9rem, 0.8rem + 0.5vw, 1.1rem);
+    --font-size-h1: clamp(1.75rem, 1.5rem + 2vw, 2.75rem);
+    --font-size-h2: clamp(1.5rem, 1.25rem + 1.5vw, 2.25rem);
+    --font-size-h3: clamp(1.25rem, 1.1rem + 1vw, 1.75rem);
+    --font-size-label: clamp(
+      0.8rem,
+      0.75rem + 0.25vw,
+      0.9rem
+    ); /* Sekitar 12.8px - 14.4px */
+  }
+
+  /* KITA TAMBAHKAN !important DI SINI */
+  .page-inner {
+    font-size: var(--font-size-base) !important;
+  }
+
+  .page-inner h1 {
+    font-size: var(--font-size-h1) !important;
+  }
+
+  .page-inner h2 {
+    font-size: var(--font-size-h2) !important;
+  }
+
+  .page-inner h3 {
+    font-size: var(--font-size-h3) !important;
   }
 }
