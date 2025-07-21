@@ -1,6 +1,9 @@
 /* ==========================================================================
-   1. STRUKTUR DASAR & TIPOGRAFI
-   ========================================================================== */
+    1. STRUKTUR DASAR & TIPOGRAFI
+    ========================================================================== */
+
+/* Pastikan Anda menggunakan URL yang menyertakan semua weight yang dibutuhkan: 300, 400, 700 */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 
 body {
   font-family: "Segoe UI", sans-serif;
@@ -8,6 +11,22 @@ body {
   line-height: 1.6;
   color: #2c3e50;
   background-color: #f9f9f9;
+}
+
+.gitbook-link {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 300px; /* Sesuaikan dengan lebar .book-summary */
+  background: rgba(255, 255, 255, 0.95); /* Sesuaikan dengan tema */
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  z-index: 9999;
+}
+
+.book .font-settings .dropdown-caret {
+  display: none !important;
 }
 
 h1,
@@ -20,6 +39,11 @@ h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
 }
 
 a {
@@ -56,7 +80,7 @@ code {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 60px;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(6px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -78,6 +102,7 @@ code {
   font-size: 22px;
   padding: 10px 15px;
   margin: 0;
+  margin-right: auto;
 }
 
 /* Wrapper logo + judul di sidebar */
@@ -107,9 +132,36 @@ code {
 .book-header .font-settings {
   display: flex;
   align-items: center;
-  margin-right: auto;
   color: #333;
   z-index: 9999;
+  cursor: pointer;
+  position: relative !important;
+  float: none !important;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+}
+
+button[data-toggle="summary"],
+.toggle-summary {
+  display: none !important;
+}
+
+.book-header .toggle-summary {
+  order: 1;
+}
+
+.book-header .title {
+  order: 2;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.book-header .font-settings {
+  order: 3;
+  margin-left: auto;
 }
 
 .book-header .font-settings button {
@@ -119,6 +171,12 @@ code {
   border: none;
   cursor: pointer;
   padding: 8px;
+}
+
+.font-settings .dropdown-menu {
+  right: 0;
+  left: auto;
+  transform: translateX(0); /* biar langsung nempel kanan tombol */
 }
 
 .book-header .font-settings button:hover {
@@ -132,22 +190,99 @@ code {
 /* ==========================================================================
    3. SIDEBAR NAVIGASI (SUMMARY)
    ========================================================================== */
+/*
+=================================================================
+  CUSTOM SCROLLBAR STYLING
+  Menambahkan tampilan scrollbar yang halus dan modern untuk sidebar.
+=================================================================
+*/
+
+/* --- STYLE UNTUK TEMA TERANG / DEFAULT --- */
+.book-summary::-webkit-scrollbar {
+  width: 10px; /* Lebar scrollbar */
+}
+
+.book-summary::-webkit-scrollbar-track {
+  /* Biarkan transparan atau beri warna background jika perlu */
+  background: transparent;
+}
+
+.book-summary::-webkit-scrollbar-thumb {
+  background-color: #bdc3c7; /* Warna abu-abu yang serasi dengan border */
+  border-radius: 10px; /* Membuat sudut membulat */
+  /* Memberi jarak/padding di sekitar thumb scrollbar */
+  border: 2px solid #ffffff;
+}
+
+.book-summary::-webkit-scrollbar-thumb:hover {
+  background-color: #95a5a6; /* Warna lebih gelap saat kursor di atas */
+}
+
+/* --- STYLE UNTUK TEMA DARK (.color-theme-2) --- */
+.book.color-theme-2 .book-summary::-webkit-scrollbar-thumb {
+  background-color: #4a5056; /* Warna scrollbar yang lebih gelap */
+  /* Border disesuaikan dengan background gelap sidebar */
+  border: 2px solid #24272b; /* Ganti #24272b dengan warna background dark Anda jika berbeda */
+}
+
+.book.color-theme-2 .book-summary::-webkit-scrollbar-thumb:hover {
+  background-color: #6c757d;
+}
+
+/* --- STYLE UNTUK TEMA SEPIA (.color-theme-1) --- */
+.book.color-theme-1 .book-summary::-webkit-scrollbar-thumb {
+  background-color: #b0a293; /* Warna scrollbar coklat muda */
+  /* Border disesuaikan dengan background sepia sidebar */
+  border: 2px solid #fbf5e9; /* Ganti #fbf5e9 dengan warna background sepia Anda jika berbeda */
+}
+
+.book.color-theme-1 .book-summary::-webkit-scrollbar-thumb:hover {
+  background-color: #9a8b7c;
+}
 
 .book-summary {
   background: #ffffff;
   color: #34495e;
-  border-right: 1px solid #bdc3c7;
+  border: none;
   padding: 1% 1% 0 1%;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-right: 0;
+  position: fixed;
+  overflow-y: hidden; /* default: tidak ada scrollbar */
+  transition: all 0.3s ease;
+}
+
+.book.color-theme-1 .book-summary {
+  background: #f4f0e8;
+  color: #5b4636;
+  padding: 1% 1% 0 1%;
+  border: none;
+  margin-top: 60px;
+  margin-right: 0;
+  position: fixed;
+  overflow-y: hidden; /* default: tidak ada scrollbar */
+  transition: all 0.3s ease;
+}
+
+.book-summary #book-search-input {
+  background: #ffffff;
+  color: #34495e;
+}
+
+.book-summary:hover {
+  overflow-y: auto; /* pas di-hover: scrollbar muncul */
 }
 
 .book-summary ul.summary li a {
-  color: #2c3e50;
+  color: #696969;
   padding: 5px 15px;
   margin: 0 3px;
   display: block;
   text-decoration: none;
   border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
   width: 100%;
   transition: background 0.3s, color 0.3s;
 }
@@ -155,6 +290,12 @@ code {
 .book-summary ul.summary li a:hover {
   background: #f0efef;
   color: black;
+  text-decoration: none;
+}
+
+.book.color-theme-1 .book-summary ul.summary li a:hover {
+  background: #fdf6e5;
+  color: #473223;
   text-decoration: none;
 }
 
@@ -166,11 +307,29 @@ code {
   font-weight: bold;
 }
 
+.book.color-theme-1 .book-summary ul.summary li.active > a,
+.book.color-theme-1 .book-summary .chapter.active > a,
+.book.color-theme-1 .book-summary .chapter.active > .chapter-title > a {
+  color: #6a3f0f;
+  font-weight: bold;
+}
+
 .book-summary ul.summary li.active > a:hover,
 .book-summary .chapter.active > a:hover,
 .book-summary .chapter.active > .chapter-title > a:hover {
   background: #e8f0ff;
   color: #7f93bb;
+}
+
+.book.book.color-theme-1 .book-summary ul.summary li.active > a:hover,
+.book.book.color-theme-1 .book-summary .chapter.active > a:hover,
+.book.book.color-theme-1
+  .book-summary
+  .chapter.active
+  > .chapter-title
+  > a:hover {
+  background: #fef6e5;
+  color: #473223;
 }
 
 .summary-group-header {
@@ -179,7 +338,6 @@ code {
   font-weight: bold;
   padding: 12px 20px 4px 20px;
   color: #6c757d;
-  border-top: 1px solid #dee2e6;
 }
 
 /* Ikon di sidebar */
@@ -189,7 +347,6 @@ code {
   display: inline-block;
   text-align: center;
   margin-right: 0.5em;
-  color: #555;
   opacity: 0.9;
 }
 
@@ -230,22 +387,36 @@ code {
    ========================================================================== */
 
 .book-body {
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 24px;
-  background: none !important;
+  background: white;
 }
 
 .book-body .page-wrapper .page-inner section.normal {
-  padding: 30px;
+  padding-top: 50px;
+
+  padding-left: 30px;
   background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.book-body .page-wrapper .page-inner section.normal iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  max-height: 100vh;
 }
 
 .cover {
-  width: 100%;
-  height: auto;
   display: block;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 iframe {
@@ -287,12 +458,7 @@ blockquote {
     transform: scale(0.95);
     opacity: 0;
   }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
-
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -391,66 +557,191 @@ blockquote {
 /* ============================= */
 /* SEARCH RESULTS STYLING - CARD */
 /* ============================= */
+/*
+=================================================================
+  BASE STYLE - SEARCH RESULTS
+  Style dasar yang sudah diperbagus untuk tema terang/default.
+=================================================================
+*/
 
+/* Kontainer utama hasil pencarian */
+/*
+=================================================================
+  BASE STYLE (LIGHT THEME) - REFINED SEARCH RESULTS
+  Fokus pada desain yang bersih, spasi, dan interaksi yang halus.
+=================================================================
+*/
+
+/* Kontainer utama hasil pencarian */
 .search-results {
-  padding: 20px;
+  padding: 24px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
+/* Judul halaman "Search Results" */
 .search-results-title {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-decoration: none;
   color: #2c3e50;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 10px;
+  border-bottom: 1px solid #e9ecef; /* Garis bawah yang sangat tipis */
+  padding-bottom: 12px;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-/* List hasil */
+/* List hasil pencarian */
 .search-results-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr; /* Atau bisa 1fr 1fr untuk 2 kolom */
-  gap: 16px;
+  gap: 20px; /* Jarak antar kartu */
 }
 
-/* Kartu hasil */
+/* Setiap kartu hasil pencarian - Desain Awal (Tanpa Border) */
 .search-results-list li {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 16px 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: all 0.2s ease;
-  border-left: 4px solid #1abc9c; /* Aksen warna */
+  background: transparent; /* Awalnya transparan */
+  border-radius: 8px;
+  padding: 20px 24px;
+  border: 1px solid transparent; /* Border transparan untuk transisi */
+  border-left: 4px solid transparent; /* Aksen border transparan */
+  /* Transisi yang terasa "fisik" dan halus */
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 
+/* Efek Hover: Kartu terangkat, bayangan muncul, aksen warna tampil */
 .search-results-list li:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+  text-decoration: none;
+  background-color: #ffffff;
+  border-color: #e9ecef;
+  border-left-color: #007bff; /* Aksen Biru yang konsisten */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* Tautan hasil */
+/* Tautan judul di setiap kartu */
 .search-results-list li a {
-  color: #1abc9c;
-  font-weight: bold;
+  color: #34495e; /* Warna teks utama, bukan warna aksen */
+  font-weight: 600;
   font-size: 18px;
   text-decoration: none;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
 }
 
-.search-results-list li a:hover {
-  text-decoration: underline;
+/* Warna link berubah saat kartu di-hover */
+.search-results-list li:hover a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-/* Deskripsi atau cuplikan isi */
+/* Cuplikan teks di setiap kartu */
 .search-results-list li p {
   margin: 0;
   font-size: 14px;
-  color: #555;
-  line-height: 1.5;
+  color: #7f8c8d; /* Abu-abu lembut untuk teks sekunder */
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+/*
+=================================================================
+  THEME DARK (.color-theme-2) - REFINED SEARCH RESULTS
+=================================================================
+*/
+
+.book.color-theme-2 .search-results-title {
+  color: #e9ecef;
+  text-decoration: none;
+  border-bottom-color: #3a3f44;
+}
+
+/* ... (kode sebelumnya) ... */
+
+.book.color-theme-2 {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+/* <<< TAMBAHKAN KODE BARU DI SINI >>> */
+.book.color-theme-2 .book-body {
+  background-color: #1e1e1e !important;
+}
+.book.color-theme-1 .book-body {
+  background-color: #f4f0e8 !important;
+}
+/* <<< ----------------------------- >>> */
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal {
+  background: #1e1e1e;
+  box-shadow: none;
+}
+
+/* ... (sisa kode) ... */
+/* Efek Hover untuk Dark Mode */
+.book.color-theme-2 .search-results-list li:hover {
+  transform: translateY(-4px);
+  text-decoration: none;
+  background-color: #24272b;
+  border-color: #3a3f44;
+  border-left-color: #3498db; /* Biru terang yang vibrant */
+  /* Bayangan diganti dengan "glow" dari warna aksen */
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);
+}
+
+.book.color-theme-2 .search-results-list li a {
+  color: #dbe0e4; /* Teks putih lembut */
+}
+
+.book.color-theme-2 .search-results-list li:hover a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.book.color-theme-2 .search-results-list li p {
+  color: #9aa5b1; /* Teks sekunder abu-abu terang */
+}
+
+/*
+=================================================================
+  THEME SEPIA (.color-theme-1) - REFINED SEARCH RESULTS
+=================================================================
+*/
+
+.book.color-theme-1 .search-results-title {
+  color: #5c4b3d;
+  text-decoration: none;
+  border-bottom-color: #dcd3c5;
+}
+
+/* Efek Hover untuk Sepia Mode */
+.book.color-theme-1 .search-results-list li:hover {
+  transform: translateY(-4px);
+  text-decoration: none;
+  background-color: #f4f0e8;
+  border-color: #e6e0d4;
+  border-left-color: #708090; /* Aksen Slate Gray yang elegan */
+  box-shadow: 0 8px 25px rgba(92, 75, 61, 0.12); /* Bayangan coklat lembut */
+}
+
+.book.color-theme-1 .search-results-list li a {
+  color: #5d5146; /* Teks coklat tua */
+}
+
+.book.color-theme-1 .search-results-list li:hover a {
+  color: #708090;
+  text-decoration: none;
+}
+
+.book.color-theme-1 .search-results-list li p {
+  color: #8a7a6c; /* Teks sekunder coklat muda */
 }
 
 /* ==========================================================================
@@ -462,13 +753,11 @@ blockquote {
 .custom-search-box input[type="text"],
 .search-box-with-icon input {
   width: 100%;
-  padding: 12px 16px;
   font-size: 16px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   transition: all 0.25s ease;
   font-family: "Segoe UI", sans-serif;
-  box-sizing: border-box;
 }
 
 /* Gaya :focus dasar */
@@ -555,22 +844,70 @@ blockquote {
 /* ----------------- Mode Gelap (Theme 2) ----------------- */
 /* ================= DARK MODE STYLING ================= */
 .book.color-theme-2 {
-  background-color: #121212 !important;
+  background-color: #1e1e1e !important;
   color: #e0e0e0 !important;
   font-family: "Segoe UI", "Inter", sans-serif;
   transition: background-color 0.3s ease;
+}
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal {
+  /* Background menjadi gelap, serasi dengan sidebar */
+  background: #1e1e1e;
+
+  /* Bayangan tidak lagi diperlukan atau bisa dibuat sangat halus */
+  box-shadow: none;
+  /* Alternatif jika ingin tetap ada bayangan:
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  */
+}
+
+/*
+=================================================================
+  THEME SEPIA (.color-theme-1) - MAIN CONTENT AREA
+  Style untuk area konten saat Tema Sepia aktif.
+=================================================================
+
+*/
+
+.book.color-theme-1 .font-settings .dropdown-menu {
+  background-color: #f4f0e8 !important;
+  border: 1px solid #333 !important;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #a8885e !important;
+}
+
+.book.color-theme-1 {
+  background-color: #f4f0e8 !important;
+  color: #e0e0e0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  transition: background-color 0.3s ease;
+}
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
+  /* Background warna krem/kertas tua, serasi dengan sidebar */
+  background: #f4f0e8;
+
+  /* Bayangan lembut dengan warna kecoklatan agar lebih estetik */
 }
 
 /* Link: sedikit lebih biru neon */
 /* ----------------- SIDEBAR (SUMMARY) - PERBAIKAN ----------------- */
 .book.color-theme-2 .book-summary {
   background: #1e1e1e !important;
-  border-right: 1px solid #333333 !important;
 }
 
+.book.color-theme-2 .book-summary #book-search-input {
+  background: #1e1e1e;
+  color: white;
+}
+.book.color-theme-1 .book-summary #book-search-input {
+  background: #f4f0e8;
+  color: #5b4636;
+}
 /* Gaya untuk link yang TIDAK aktif */
 .book.color-theme-2 .book-summary ul.summary li:not(.active) > a {
-  color: #b0b0b0 !important; /* Warna abu-abu untuk link biasa */
+  color: #696969 !important; /* Warna abu-abu untuk link biasa */
+  font-family: "Inter", sans-serif;
+  font-weight: lighter !important; /* Saya sarankan 400 untuk normal, 300 (light) mungkin terlalu tipis */
 }
 
 /* Gaya untuk link saat di-hover (jika tidak aktif) */
@@ -588,6 +925,7 @@ blockquote {
   font-weight: bold;
   background: rgba(88, 166, 255, 0.15) !important;
   border-radius: 8px;
+  font-family: "Inter", sans-serif;
 }
 
 /* Gaya untuk judul dokumen di sidebar */
@@ -632,6 +970,7 @@ blockquote {
   border: 1px solid #333 !important;
   border-radius: 6px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #ddd !important;
 }
 
 .book.color-theme-2 .font-settings .dropdown-menu li a {
@@ -680,3 +1019,172 @@ body.without-summary .book-summary {
 body.without-summary .book-body {
   margin-left: 0 !important;
 }
+/* Container Utama Sidebar */
+/*
+=================================================================
+  BASE STYLE (UNTUK TEMA TERANG / DEFAULT)
+  Selektor ini akan berfungsi untuk tema default (putih).
+=================================================================
+*/
+
+#page-outline {
+  /* Membuat sidebar menempel di atas saat scroll */
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+  width: 240px;
+  height: 100vh; /* Menggunakan seluruh tinggi layar */
+  overflow-y: auto; /* Scrollbar jika konten panjang */
+
+  /* Tampilan Modern */
+  background-color: #ffffff; /* Warna background sedikit off-white */
+  padding: 16px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transisi halus untuk ganti tema */
+}
+
+/* Judul "On this page" */
+.outline-title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 0 12px;
+}
+
+/* Daftar Menu */
+.outline-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.outline-list li {
+  margin-bottom: 4px;
+}
+
+/* Link Menu */
+.outline-list a {
+  color: #495057 !important; /* !important untuk override style bawaan GitBook */
+  text-decoration: none;
+  display: block !important;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500 !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Efek Hover */
+.outline-list a:hover {
+  background: #f0efef;
+  color: black !important;
+  text-decoration: none;
+}
+
+/* Link Aktif/Terpilih */
+.outline-list a.active {
+  background-color: #007bff;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* Indentasi Sub-menu */
+.depth-h3 a {
+  padding-left: 24px;
+  font-size: 13.5px;
+}
+.depth-h4 a {
+  padding-left: 36px;
+  font-size: 13px;
+}
+
+/* Kustomisasi Scrollbar */
+#page-outline::-webkit-scrollbar {
+  width: 6px;
+}
+#page-outline::-webkit-scrollbar-track {
+  background: transparent;
+}
+#page-outline::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+/*
+=================================================================
+  THEME DARK (.color-theme-2)
+  Style ini akan aktif saat pengguna memilih Tema Gelap.
+=================================================================
+*/
+
+.book.color-theme-2 #page-outline {
+  background-color: #1e1e1e; /* Background gelap */
+}
+
+.book.color-theme-2 .outline-title {
+  color: #e9ecef; /* Teks judul terang */
+}
+
+.book.color-theme-2 .outline-list a {
+  color: #adb5bd !important; /* Teks menu terang tapi tidak terlalu putih */
+}
+
+.book.color-theme-2 .outline-list a:hover {
+  color: #80bfff !important; /* Biru terang saat hover */
+  background-color: rgba(
+    0,
+    123,
+    255,
+    0.15
+  ); /* Background hover gelap transparan */
+}
+
+.book.color-theme-2 .outline-list a.active {
+  background-color: #007bff; /* Warna aktif tetap biru */
+  color: #ffffff !important; /* Teks aktif tetap putih */
+}
+
+.book.color-theme-2 #page-outline::-webkit-scrollbar-thumb {
+  background-color: #495057; /* Warna scrollbar lebih gelap */
+}
+
+/*
+=================================================================
+  THEME SEPIA (.color-theme-1)
+  Style ini akan aktif saat pengguna memilih Tema Sepia.
+=================================================================
+*/
+
+.book.color-theme-1 #page-outline {
+  background-color: #f4f0e8; /* Background krem/kertas tua */
+}
+
+.book.color-theme-1 .outline-title {
+  color: #5c4b3d; /* Teks judul warna coklat tua */
+}
+
+.book.color-theme-1 .outline-list a {
+  color: #706156 !important; /* Teks menu warna coklat */
+}
+
+.book.color-theme-1 .outline-list a:hover {
+  color: #5a7d9a !important; /* Aksen warna biru pudar/usang */
+  background-color: #e9e4d9; /* Background hover warna krem lebih gelap */
+}
+
+.book.color-theme-1 .outline-list a.active {
+  background-color: #5a7d9a; /* Warna aktif biru pudar */
+  color: #f4f0e8 !important; /* Teks aktif warna background (krem) agar serasi */
+}
+
+.book.color-theme-1 #page-outline::-webkit-scrollbar-thumb {
+  background-color: #b0a293; /* Warna scrollbar coklat muda */
+}
+
+/* ==========================================================================
+   8. RESPONSIVE DESIGN (UNTUK LAYAR KECIL / MOBILE)
+   ========================================================================== */
