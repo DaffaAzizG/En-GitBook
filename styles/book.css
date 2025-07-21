@@ -1293,6 +1293,7 @@ body.without-summary .book-body {
 
 .book.color-theme-1 .page-nav-link {
   border-color: #cb851e;
+  color: #cb851e;
   background-color: transparent; /* Atau sesuaikan jika perlu */
 }
 
@@ -1316,19 +1317,19 @@ body.without-summary .book-body {
 
 .book.color-theme-1 .page-nav-link.prev::before,
 .book.color-theme-1 .page-nav-link.next::after {
-  color: #f4f0e8;
+  color: #cb851e;
 }
-.book.color-theme-2 .page-nav-link:hover::before,
-.book.color-theme-2 .page-nav-link:hover::after {
+.book.color-theme-1 .page-nav-link:hover::before,
+.book.color-theme-1 .page-nav-link:hover::after {
   color: #cb851e;
 }
 
 .book.color-theme-2 .page-navigation {
-  border-top-color: #1e1e1e;
+  border-top-color: #dbe0e4;
 }
 
 .book.color-theme-2 .page-nav-link {
-  border-color: #1e1e1e;
+  border-color: #dbe0e4;
   background-color: transparent; /* Atau sesuaikan jika perlu */
 }
 
