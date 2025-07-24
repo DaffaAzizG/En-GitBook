@@ -197,48 +197,75 @@ button[data-toggle="summary"],
 =================================================================
 */
 
-/* --- STYLE UNTUK TEMA TERANG / DEFAULT --- */
-.book-summary::-webkit-scrollbar {
-  width: 10px; /* Lebar scrollbar */
-}
+/* ========================================================== */
+/* ==      PERBAIKAN FINAL V3: MELAWAN !IMPORTANT DARI TEMA   == */
+/* ========================================================== */
 
+/* 1. ATURAN DASAR & STRUKTUR (Berlaku untuk semua) */
+.book-summary::-webkit-scrollbar {
+  width: 8px;
+}
 .book-summary::-webkit-scrollbar-track {
-  /* Biarkan transparan atau beri warna background jika perlu */
   background: transparent;
 }
+.book-summary::-webkit-scrollbar-button {
+  display: none !important; /* Pastikan panah selalu hilang */
+}
 
+
+/* 2. LOGIKA UNTUK TEMA DEFAULT (Yang sudah bekerja dengan baik) */
 .book-summary::-webkit-scrollbar-thumb {
-  background-color: #bdc3c7; /* Warna abu-abu yang serasi dengan border */
-  border-radius: 10px; /* Membuat sudut membulat */
-  /* Memberi jarak/padding di sekitar thumb scrollbar */
-  border: 2px solid #ffffff;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.25s ease-in-out;
+}
+.book-summary:hover::-webkit-scrollbar-thumb {
+  background-color: #bdc3c7;
+}
+.book-summary:hover::-webkit-scrollbar-thumb:hover {
+  background-color: #95a5a6;
 }
 
-.book-summary::-webkit-scrollbar-thumb:hover {
-  background-color: #95a5a6; /* Warna lebih gelap saat kursor di atas */
-}
 
-/* --- STYLE UNTUK TEMA DARK (.color-theme-2) --- */
-.book.color-theme-2 .book-summary::-webkit-scrollbar-thumb {
-  background-color: #4a5056; /* Warna scrollbar yang lebih gelap */
-  /* Border disesuaikan dengan background gelap sidebar */
-  border: 2px solid #24272b; /* Ganti #24272b dengan warna background dark Anda jika berbeda */
+/* 3. PERBAIKAN TOTAL UNTUK TEMA SEPIA (.color-theme-1) */
+.book.color-theme-1 .book-summary {
+  overflow-y: auto !important;
 }
-
-.book.color-theme-2 .book-summary::-webkit-scrollbar-thumb:hover {
-  background-color: #6c757d;
-}
-
-/* --- STYLE UNTUK TEMA SEPIA (.color-theme-1) --- */
+/* Paksa thumb menjadi transparan secara default */
 .book.color-theme-1 .book-summary::-webkit-scrollbar-thumb {
-  background-color: #b0a293; /* Warna scrollbar coklat muda */
-  /* Border disesuaikan dengan background sepia sidebar */
-  border: 2px solid #fbf5e9; /* Ganti #fbf5e9 dengan warna background sepia Anda jika berbeda */
+  background-color: transparent !important;
+}
+/* Paksa thumb muncul saat hover */
+.book.color-theme-1 .book-summary:hover::-webkit-scrollbar-thumb {
+  background-color: #b0a293 !important;
+}
+.book.color-theme-1 .book-summary:hover::-webkit-scrollbar-thumb:hover {
+  background-color: #9a8b7c !important;
 }
 
-.book.color-theme-1 .book-summary::-webkit-scrollbar-thumb:hover {
-  background-color: #9a8b7c;
+
+/* 4. PERBAIKAN TOTAL UNTUK TEMA DARK (.color-theme-2) */
+.book.color-theme-2 .book-summary {
+  overflow-y: auto !important;
 }
+/* Paksa thumb menjadi transparan secara default */
+.book.color-theme-2 .book-summary::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+}
+/* Paksa thumb muncul saat hover */
+.book.color-theme-2 .book-summary:hover::-webkit-scrollbar-thumb {
+  background-color: #4a5056 !important;
+}
+.book.color-theme-2 .book-summary:hover::-webkit-scrollbar-thumb:hover {
+  background-color: #6c757d !important;
+}
+
+/* 
+   CATATAN UNTUK FIREFOX (jika diperlukan di masa depan)
+   Logika !important tidak berlaku sama untuk scrollbar-color,
+   namun kode di atas akan mencakup mayoritas pengguna (Chrome, Edge, Safari).
+*/
 
 .book-summary {
   background: #ffffff;
