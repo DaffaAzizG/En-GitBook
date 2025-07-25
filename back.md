@@ -1,7 +1,7 @@
-# 🌐 Redirecting to Language Selection
+# Redirecting to Language Selection
 
 <div id="loading" style="font-size: 1.2em; margin-bottom: 1em;">
-  🔄 Redirecting to language selection page...
+  Redirecting to language selection page...
 </div>
 
 <div id="fallback" style="display:none;">
